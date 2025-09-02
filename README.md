@@ -1,21 +1,40 @@
 # MNIST Neural Network from Scratch
 
-This project is a **neural network built from scratch in Python using NumPy** to classify handwritten digits from the **MNIST dataset**. It demonstrates the core concepts of deep learning, including **forward and backward propagation**, **gradient descent**, and **one-hot encoding**, without using high-level libraries like TensorFlow or PyTorch.
+This project demonstrates the implementation of a **neural network from scratch in Python using NumPy** to classify handwritten digits from the **MNIST dataset**. Unlike high-level frameworks like TensorFlow or PyTorch, this project builds every component manually, providing a deep understanding of how neural networks learn.
 
-## Project Highlights
+## Project Overview
 
-- Implemented **forward propagation** and **backward propagation** manually.
-- Built **gradient descent** to update network weights and biases.
-- Used **one-hot encoding** and **data normalization** for better training performance.
-- Achieved **~85% accuracy** on the MNIST training set.
-- Visualized predictions for individual digits using **Matplotlib**.
-- Provides a clear understanding of **how neural networks learn** from scratch.
+The MNIST dataset contains **70,000 grayscale images** of handwritten digits (0–9), each 28x28 pixels. The goal of this project is to train a neural network to correctly classify these digits. This project covers:  
+
+- **Forward propagation**: Calculating outputs layer by layer.  
+- **Backward propagation**: Computing gradients to update weights and biases.  
+- **Gradient descent**: Optimizing network parameters to reduce loss.  
+- **One-hot encoding**: Transforming labels into a format suitable for neural networks.  
+- **Data normalization**: Scaling input features for better convergence.  
+
+By building the network manually, this project offers a strong understanding of the underlying mathematics and training mechanics of neural networks.
+
+## Features
+
+- Fully **implemented forward and backward propagation**.  
+- **Manual gradient descent** for weight and bias updates.  
+- Training achieved **~85% accuracy** on the MNIST training set.  
+- Visualizations of predictions for individual digits using **Matplotlib**.  
+- Demonstrates practical applications of **NumPy** for linear algebra operations in machine learning.
 
 ## Dataset
 
-- Uses the [MNIST dataset](http://yann.lecun.com/exdb/mnist/), which contains **70,000 handwritten digit images** (28x28 pixels):
-  - 60,000 training images
-  - 10,000 test images
+- [MNIST dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset), consisting of:  
+  - **60,000 training images**  
+  - **10,000 test images**  
+
+The dataset was preprocessed to normalize pixel values and split into training and validation sets.
+
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone 
 
 ## Usage
 
