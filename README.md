@@ -30,17 +30,12 @@ By building the network manually, this project offers a strong understanding of 
 
 The dataset was preprocessed to normalize pixel values and split into training and validation sets.
 
-## Usage
-
-1. Clone the repository:
-   ```bash
-   git clone 
 
 ## Usage
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Adi485455/MNIST-NeuralNetwork-FromScratch.git
    2.	Open the Jupyter notebook (.ipynb) in your preferred environment (Jupyter Lab, VS Code, Google Colab).
 	3.	Run all cells to train the network and visualize predictions.
 
@@ -56,7 +51,7 @@ Label: 5
 
 Author
 
-Aditya Jalindar Turkunde – Second-year CSE student passionate about Machine Learning and Deep Learning fundamentals.
+Aditya Jalindar Turkunde – Third-year CSE student passionate about Machine Learning and Deep Learning fundamentals.
 GitHub: 
 LinkedIn: 
 
