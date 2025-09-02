@@ -52,8 +52,8 @@ Label: 5
 Author
 
 Aditya Jalindar Turkunde – Third-year CSE student passionate about Machine Learning and Deep Learning fundamentals.
-GitHub: 
-LinkedIn: 
+GitHub: https://github.com/Adi485455
+LinkedIn: https://www.linkedin.com/in/aditya-turkunde-872707372/
 
 
 License
